@@ -6,12 +6,14 @@ const mySubmit = document.getElementById("mySubmit");
 const mySub = document.getElementById("mySub");
 const myCard = document.getElementById("myCard");
 const packCost = document.getElementById("packCost");
+const packDiscountCap = document.getElementById("packDiscountCap");
 const myCost = document.getElementById("myCost");
 
 
-let price = 50;
-let discountCap = 25
+let price = 302;
+let discountCap = 115;
 packCost.textContent += ` $${price}`;
+packDiscountCap.textContent += `$${discountCap}`;
 mySubmit.onclick = function() {
     if(checkSub.checked){
         mySub.textContent = `You are SUBSCRIBED`;
