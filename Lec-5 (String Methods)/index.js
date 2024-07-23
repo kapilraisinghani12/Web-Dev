@@ -35,6 +35,7 @@ const uName = document.getElementById("uName");
 
 
 
+
 mySubmit.onclick = function () {
   let fullName = myName.value;
   let mailName = myEmail.value;
