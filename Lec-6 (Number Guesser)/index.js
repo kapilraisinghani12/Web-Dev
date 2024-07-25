@@ -1,9 +1,9 @@
 let minNum = 1;
-let maxNum = 10;
+let maxNum = 100;
 
-let answer = Math.floor(Math.random()* (maxNum-minNum + 1)) + minNum;
+let answer = Math.floor(Math.random()* (maxNum-minNum+1)) + minNum;
 
-let guess;
+let guess;45
 let game = true;
 let attepts = 0;
 while(game){
