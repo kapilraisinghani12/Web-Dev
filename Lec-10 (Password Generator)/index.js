@@ -16,7 +16,7 @@ const specialChars = "!@#$%^&*()_+=-?\>/<";
 let allowedChars = "";
 let password = "";
 allowedChars += includeLowercase.checked ? lowercaseChars : "";
-allowedChars += includeUppercase .checked? uppercaseChars : "";
+allowedChars += includeUppercase.checked? uppercaseChars : "";
 allowedChars += includeNumbers.checked ? numbers : "";
 allowedChars += includeChars.checked ? specialChars : "";
 
